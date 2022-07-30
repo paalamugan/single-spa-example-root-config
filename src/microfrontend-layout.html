@@ -1,0 +1,33 @@
+<single-spa-router>
+  <div class="app">
+    <!-- <header>
+      <application
+        name="@single-spa-example/header"
+        loader="header"
+        error="header"
+      ></application>
+    </header> -->
+    <main>
+      <route path="/" exact>
+        <h1>Welcome to Single spa example microfrontend application</h1>
+        <!-- <application
+          name="@single-spa-example/home"
+          loader="home"
+          error="home"
+        ></application> -->
+      </route>
+      <route default>
+        <h1 class="flex flex-row justify-center p-16">
+          <p class="max-w-md font-bold">Page Not Found</p>
+        </h1>
+      </route>
+    </main>
+    <!-- <footer>
+      <application
+        name="@single-spa-example/footer"
+        loader="footer"
+        error="footer"
+      ></application>
+    </footer> -->
+  </div>
+</single-spa-router>

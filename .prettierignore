@@ -1,0 +1,12 @@
+.gitignore
+.prettierignore
+yarn.lock
+yarn-error.log
+package-lock.json
+LICENSE
+*.ejs
+dist
+coverage
+pnpm-lock.yaml
+tailwind.config.js
+postcss.config.js

@@ -1,0 +1,15 @@
+{
+  "imports": {
+    "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.3/lib/system/single-spa.min.js",
+    "rxjs": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs@6.5.5/system/rxjs.min.js",
+    "rxjs/operators": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs@6.5.5/system/rxjs-operators.min.js",
+    "moment": "https://cdn.jsdelivr.net/npm/moment@2.29.3/moment.min.js",
+    "lodash": "https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js",
+    "@single-spa-example/root-config": "//localhost:9000/single-spa-example-root-config.js",
+    "@single-spa-example/global": "//localhost:9001/single-spa-example-global.js",
+    "@single-spa-example/react-mui": "//localhost:9002/single-spa-example-react-mui.js",
+    "@single-spa-example/react-styleguide": "//localhost:9003/single-spa-example-react-styleguide.js"
+  }
+}
